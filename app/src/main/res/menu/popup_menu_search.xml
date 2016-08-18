@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/itemAddToQueue"
+        android:showAsAction="ifRoom|withText"
+        android:title="Add to queue"
+        android:visible="true"/>
+    <item
+        android:id="@+id/itemPlayNext"
+        android:showAsAction="ifRoom|withText"
+        android:title="Play next"
+        android:visible="true"/>
+
+</menu>
